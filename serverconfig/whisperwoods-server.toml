@@ -1,0 +1,136 @@
+
+[entities]
+
+	[entities.moth]
+		#Disables natural spawning
+		doSpawning = true
+		#The spawn chance compared to other entities (typically between 6-20)
+		#Range: 1 ~ 9999
+		weight = 10
+		#Must be greater than 0
+		#Range: 1 ~ 9999
+		minGroup = 1
+		#Must be greater or equal to min value!
+		#Range: 1 ~ 9999
+		maxGroup = 3
+		#Whether to use spawn costs in spawning or not
+		useSpawnCosts = false
+		#Cost to spawning algorithm per entity spawned
+		#Range: 0.01 ~ 9999.0
+		costPer = 1.0
+		#Maxmimum cost the spawning algorithm can accrue for this entity
+		#Range: 0.01 ~ 9999.0
+		maxCost = 10.0
+		#Enter biome Resource Locations. Supports modded biomes.
+		spawnBiomes = ["minecraft:giant_spruce_taiga", "minecraft:dark_forest", "minecraft:taiga", "minecraft:taiga_hills", "minecraft:wooded_mountains", "minecraft:tall_birch_forest", "minecraft:swamp_hills", "minecraft:forest", "minecraft:jungle_edge", "minecraft:taiga_mountains", "minecraft:giant_spruce_taiga_hills", "minecraft:giant_tree_taiga", "minecraft:snowy_taiga_hills", "minecraft:birch_forest", "minecraft:flower_forest", "minecraft:tall_birch_hills", "minecraft:birch_forest_hills", "minecraft:swamp", "minecraft:dark_forest_hills", "minecraft:snowy_taiga_mountains", "minecraft:giant_tree_taiga_hills", "minecraft:snowy_taiga", "minecraft:wooded_hills"]
+		#True if this entity can despawn freely when no players are nearby.
+		doDespawn = true
+		#How many moths required to destroy a torch - Disabled if set to 0
+		#Range: > 0
+		moths_to_destroy_torch = 5
+
+	[entities.hidebehind]
+		#Disables natural spawning
+		doSpawning = true
+		#The spawn chance compared to other entities (typically between 6-20)
+		#Range: 1 ~ 9999
+		weight = 5
+		#Must be greater than 0
+		#Range: 1 ~ 9999
+		minGroup = 1
+		#Must be greater or equal to min value!
+		#Range: 1 ~ 9999
+		maxGroup = 1
+		#Whether to use spawn costs in spawning or not
+		useSpawnCosts = false
+		#Cost to spawning algorithm per entity spawned
+		#Range: 0.01 ~ 9999.0
+		costPer = 1.0
+		#Maxmimum cost the spawning algorithm can accrue for this entity
+		#Range: 0.01 ~ 9999.0
+		maxCost = 10.0
+		#Enter biome Resource Locations. Supports modded biomes.
+		spawnBiomes = ["minecraft:giant_spruce_taiga", "minecraft:dark_forest", "minecraft:taiga", "minecraft:taiga_hills", "minecraft:wooded_mountains", "minecraft:tall_birch_forest", "minecraft:forest", "minecraft:jungle_edge", "minecraft:taiga_mountains", "minecraft:giant_spruce_taiga_hills", "minecraft:giant_tree_taiga", "minecraft:snowy_taiga_hills", "minecraft:birch_forest", "minecraft:flower_forest", "minecraft:tall_birch_hills", "minecraft:birch_forest_hills", "minecraft:dark_forest_hills", "minecraft:snowy_taiga_mountains", "minecraft:giant_tree_taiga_hills", "minecraft:snowy_taiga", "minecraft:wooded_hills"]
+		#True if this entity can despawn freely when no players are nearby.
+		doDespawn = false
+		#Setting to true enables biome based variant spawning. This will make this entity choose variants based on the biome they spawn in. (No longer affects spawn eggs as it did in the past, only natural spawns)
+		biomeBasedVariants = true
+
+	[entities.wisp]
+		#Disables natural spawning
+		doSpawning = true
+		#The spawn chance compared to other entities (typically between 6-20)
+		#Range: 1 ~ 9999
+		weight = 13
+		#Must be greater than 0
+		#Range: 1 ~ 9999
+		minGroup = 1
+		#Must be greater or equal to min value!
+		#Range: 1 ~ 9999
+		maxGroup = 3
+		#Whether to use spawn costs in spawning or not
+		useSpawnCosts = false
+		#Cost to spawning algorithm per entity spawned
+		#Range: 0.01 ~ 9999.0
+		costPer = 1.0
+		#Maxmimum cost the spawning algorithm can accrue for this entity
+		#Range: 0.01 ~ 9999.0
+		maxCost = 10.0
+		#Enter biome Resource Locations. Supports modded biomes.
+		spawnBiomes = ["minecraft:giant_spruce_taiga", "minecraft:dark_forest", "minecraft:taiga", "minecraft:taiga_hills", "minecraft:wooded_mountains", "minecraft:tall_birch_forest", "minecraft:swamp_hills", "minecraft:forest", "minecraft:jungle_edge", "minecraft:taiga_mountains", "minecraft:giant_spruce_taiga_hills", "minecraft:giant_tree_taiga", "minecraft:snowy_taiga_hills", "minecraft:birch_forest", "minecraft:flower_forest", "minecraft:tall_birch_hills", "minecraft:birch_forest_hills", "minecraft:swamp", "minecraft:dark_forest_hills", "minecraft:snowy_taiga_mountains", "minecraft:giant_tree_taiga_hills", "minecraft:snowy_taiga", "minecraft:wooded_hills"]
+		#True if this entity can despawn freely when no players are nearby.
+		doDespawn = false
+		#Chance of wisp being hostile (soul stealer). Chance is 1/x, where x is the value specified. 0 is no chance, 1 is 100% chance, 2 is 50% chance, etc
+		#Range: > 0
+		hostile_chance = 8
+
+	[entities.hirschgeist]
+		#Disables natural spawning
+		doSpawning = true
+		#The spawn chance compared to other entities (typically between 6-20)
+		#Range: 1 ~ 9999
+		weight = 2
+		#Must be greater than 0
+		#Range: 1 ~ 9999
+		minGroup = 1
+		#Must be greater or equal to min value!
+		#Range: 1 ~ 9999
+		maxGroup = 1
+		#Whether to use spawn costs in spawning or not
+		useSpawnCosts = false
+		#Cost to spawning algorithm per entity spawned
+		#Range: 0.01 ~ 9999.0
+		costPer = 1.0
+		#Maxmimum cost the spawning algorithm can accrue for this entity
+		#Range: 0.01 ~ 9999.0
+		maxCost = 10.0
+		#Enter biome Resource Locations. Supports modded biomes.
+		spawnBiomes = ["minecraft:giant_spruce_taiga", "minecraft:dark_forest", "minecraft:taiga", "minecraft:taiga_hills", "minecraft:wooded_mountains", "minecraft:tall_birch_forest", "minecraft:forest", "minecraft:jungle_edge", "minecraft:taiga_mountains", "minecraft:giant_spruce_taiga_hills", "minecraft:giant_tree_taiga", "minecraft:snowy_taiga_hills", "minecraft:birch_forest", "minecraft:flower_forest", "minecraft:tall_birch_hills", "minecraft:birch_forest_hills", "minecraft:dark_forest_hills", "minecraft:snowy_taiga_mountains", "minecraft:giant_tree_taiga_hills", "minecraft:snowy_taiga", "minecraft:wooded_hills"]
+		#True if this entity can despawn freely when no players are nearby.
+		doDespawn = false
+
+	[entities.zotzpyre]
+		#Disables natural spawning
+		doSpawning = true
+		#The spawn chance compared to other entities (typically between 6-20)
+		#Range: 1 ~ 9999
+		weight = 30
+		#Must be greater than 0
+		#Range: 1 ~ 9999
+		minGroup = 1
+		#Must be greater or equal to min value!
+		#Range: 1 ~ 9999
+		maxGroup = 1
+		#Whether to use spawn costs in spawning or not
+		useSpawnCosts = false
+		#Cost to spawning algorithm per entity spawned
+		#Range: 0.01 ~ 9999.0
+		costPer = 1.0
+		#Maxmimum cost the spawning algorithm can accrue for this entity
+		#Range: 0.01 ~ 9999.0
+		maxCost = 10.0
+		#Enter biome Resource Locations. Supports modded biomes.
+		spawnBiomes = ["minecraft:dark_forest", "minecraft:gravelly_mountains", "minecraft:wooded_mountains", "minecraft:modified_wooded_badlands_plateau", "minecraft:swamp_hills", "minecraft:taiga_mountains", "minecraft:giant_tree_taiga", "minecraft:birch_forest", "minecraft:shattered_savanna", "minecraft:flower_forest", "minecraft:swamp", "minecraft:desert_hills", "minecraft:jungle", "minecraft:snowy_mountains", "minecraft:wooded_hills", "minecraft:giant_spruce_taiga", "minecraft:beach", "minecraft:mountains", "minecraft:taiga", "minecraft:taiga_hills", "minecraft:tall_birch_forest", "minecraft:jungle_hills", "minecraft:modified_gravelly_mountains", "minecraft:stone_shore", "minecraft:forest", "minecraft:mushroom_field_shore", "minecraft:jungle_edge", "minecraft:snowy_tundra", "minecraft:giant_spruce_taiga_hills", "minecraft:mountain_edge", "minecraft:eroded_badlands", "minecraft:snowy_taiga_hills", "minecraft:snowy_beach", "minecraft:modified_jungle", "minecraft:modified_badlands_plateau", "minecraft:tall_birch_hills", "minecraft:birch_forest_hills", "minecraft:shattered_savanna_plateau", "minecraft:dark_forest_hills", "minecraft:ice_spikes", "minecraft:snowy_taiga_mountains", "minecraft:modified_jungle_edge", "minecraft:giant_tree_taiga_hills", "minecraft:snowy_taiga"]
+		#True if this entity can despawn freely when no players are nearby.
+		doDespawn = true
+
