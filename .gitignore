@@ -25,3 +25,6 @@ ftbessentials/playerdata
 data/ftbchunks
 advancements
 data/ftbteams
+
+# IDE stuff
+.idea
